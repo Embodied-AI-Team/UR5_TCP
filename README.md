@@ -1,0 +1,2 @@
+# UR5_TCP_grip_for_onrobot
+使用python通过TCP使通讯指令onrobot和ros中间切换
