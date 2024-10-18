@@ -5,6 +5,7 @@ TCPClient.py
 使用python通过TCP使通讯指令onrobot和ros中间切换
 
 由于onrobot夹爪没法直接与ros通讯，所以本脚本在URCAP上创建两个任务（关闭和开启），然后通过TCP向其发送执行指令:
+
     def tcp_rg2_close(self):
         message ="load close_rg2.urp\r\n"
         self.tcp_send(message)
